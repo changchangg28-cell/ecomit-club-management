@@ -13,7 +13,7 @@ export const AppShell: React.FC = () => {
   return (
     <div className="min-h-screen bg-slate-50/80 text-slate-900">
       <Sidebar />
-      <div className="pl-64 flex flex-col min-h-screen">
+      <div className="pl-60 flex flex-col min-h-screen">
         <Topbar />
         <main className="flex-1 p-6 max-w-[1440px] w-full mx-auto">
           <Outlet />
