@@ -246,7 +246,7 @@
       "department": "Ban Chủ nhiệm",
       "priority": "Cao",
       "deadline": "2025-03-15",
-      "status": "InProgress",
+      "status": "Done",
       "checklist": [
         {
           "id": "c6",
@@ -259,7 +259,9 @@
           "done": false
         }
       ],
-      "comments": []
+      "comments": [],
+      "resultLink": "",
+      "resultNote": ""
     },
     {
       "id": "t4",
@@ -532,5 +534,5 @@
       "color": "emerald"
     }
   ],
-  "updatedAt": "2026-10-22T14:07:03.718Z"
+  "updatedAt": "2026-10-22T14:07:05.936Z"
 }
