@@ -1,0 +1,536 @@
+{
+  "members": [
+    {
+      "id": "m1",
+      "fullName": "Nguyễn Minh Triết",
+      "studentId": "21110023",
+      "classCode": "21TM111",
+      "email": "triet.nm@lhu.edu.vn",
+      "phone": "0908 234 561",
+      "department": "Ban Chủ nhiệm",
+      "role": "Chủ nhiệm CLB",
+      "status": "Đang hoạt động",
+      "joinDate": "2022-09",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 120
+    },
+    {
+      "id": "m2",
+      "fullName": "Trần Phương Uyên",
+      "studentId": "21110089",
+      "classCode": "21TM112",
+      "email": "uyen.tp@lhu.edu.vn",
+      "phone": "0937 812 904",
+      "department": "Ban Chủ nhiệm",
+      "role": "Phó Chủ nhiệm",
+      "status": "Đang hoạt động",
+      "joinDate": "2022-10",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 110
+    },
+    {
+      "id": "m3",
+      "fullName": "Lê Hoàng Nam",
+      "studentId": "22110142",
+      "classCode": "22QT111",
+      "email": "nam.lh@lhu.edu.vn",
+      "phone": "0919 456 123",
+      "department": "Ban Kỹ thuật",
+      "role": "Trưởng ban Kỹ thuật",
+      "status": "Đang hoạt động",
+      "joinDate": "2023-09",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 100
+    },
+    {
+      "id": "m4",
+      "fullName": "Phạm Khánh Duy",
+      "studentId": "22110205",
+      "classCode": "22TM111",
+      "email": "duy.pk@lhu.edu.vn",
+      "phone": "0984 321 789",
+      "department": "Ban Truyền thông",
+      "role": "Trưởng ban Truyền thông",
+      "status": "Đang hoạt động",
+      "joinDate": "2023-09",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 100
+    },
+    {
+      "id": "m5",
+      "fullName": "Võ Thảo My",
+      "studentId": "22110318",
+      "classCode": "22TM112",
+      "email": "my.vt@lhu.edu.vn",
+      "phone": "0972 654 310",
+      "department": "Ban Sự kiện & Host",
+      "role": "Trưởng ban Sự kiện",
+      "status": "Đang hoạt động",
+      "joinDate": "2023-10",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 95
+    },
+    {
+      "id": "m6",
+      "fullName": "Đặng Tuấn Kiệt",
+      "studentId": "23110045",
+      "classCode": "23TM111",
+      "email": "kiet.dt@lhu.edu.vn",
+      "phone": "0963 147 258",
+      "department": "Ban Kỹ thuật",
+      "role": "Phó ban Kỹ thuật",
+      "status": "Đang hoạt động",
+      "joinDate": "2023-10",
+      "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 80
+    },
+    {
+      "id": "m7",
+      "fullName": "Nguyễn Thị Mai Anh",
+      "studentId": "23110112",
+      "classCode": "23TM112",
+      "email": "anh.ntm@lhu.edu.vn",
+      "phone": "0945 678 231",
+      "department": "Ban Sự kiện & Host",
+      "role": "Điều phối Sự kiện",
+      "status": "Đang hoạt động",
+      "joinDate": "2023-11",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 85
+    },
+    {
+      "id": "m8",
+      "fullName": "Bùi Quốc Bảo",
+      "studentId": "23110198",
+      "classCode": "23CN111",
+      "email": "bao.bq@lhu.edu.vn",
+      "phone": "0912 398 765",
+      "department": "Ban Kỹ thuật",
+      "role": "Thành viên Kỹ thuật",
+      "status": "Đang hoạt động",
+      "joinDate": "2023-11",
+      "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 70
+    },
+    {
+      "id": "m9",
+      "fullName": "Hoàng Ngọc Trâm",
+      "studentId": "23110264",
+      "classCode": "23TM111",
+      "email": "tram.hn@lhu.edu.vn",
+      "phone": "0938 761 092",
+      "department": "Ban Truyền thông",
+      "role": "Phó ban Truyền thông",
+      "status": "Đang hoạt động",
+      "joinDate": "2023-11",
+      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 90
+    },
+    {
+      "id": "m10",
+      "fullName": "Trương Gia Huy",
+      "studentId": "22110401",
+      "classCode": "22QT112",
+      "email": "huy.tg@lhu.edu.vn",
+      "phone": "0909 512 843",
+      "department": "Ban Chủ nhiệm",
+      "role": "Ủy viên Đối ngoại",
+      "status": "Đang hoạt động",
+      "joinDate": "2022-10",
+      "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 90
+    },
+    {
+      "id": "m11",
+      "fullName": "Phan Thanh Thảo",
+      "studentId": "23110309",
+      "classCode": "23TM113",
+      "email": "thao.pt@lhu.edu.vn",
+      "phone": "0977 204 519",
+      "department": "Ban Truyền thông",
+      "role": "Thành viên Media",
+      "status": "Đang hoạt động",
+      "joinDate": "2024-01",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 65
+    },
+    {
+      "id": "m12",
+      "fullName": "Ngô Minh Quân",
+      "studentId": "23110355",
+      "classCode": "23TM111",
+      "email": "quan.nm@lhu.edu.vn",
+      "phone": "0968 901 234",
+      "department": "Ban Sự kiện & Host",
+      "role": "Thành viên Sự kiện",
+      "status": "Đang hoạt động",
+      "joinDate": "2024-01",
+      "avatar": "https://images.unsplash.com/photo-1463453091185-61582044d556?w=200&auto=format&fit=crop&q=80",
+      "bonusPoints": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "code": "TSK-01",
+      "eventId": "ev2",
+      "title": "Thiết kế Poster tuyển thành viên đợt 2",
+      "description": "Thiết kế 1 Poster chính và 3 ảnh bài đăng Fanpage theo bộ nhận diện CLB ECOMIT.",
+      "assigneeId": "m9",
+      "department": "Ban Truyền thông",
+      "priority": "Cao",
+      "deadline": "2025-03-16",
+      "status": "Done",
+      "resultLink": "https://www.canva.com/design/ecomit-tuyen-thanh-vien-2025",
+      "resultNote": "Đã xuất file PNG chất lượng cao và gửi Trưởng ban duyệt.",
+      "checklist": [
+        {
+          "id": "c1",
+          "text": "Phác thảo bố cục Poster chính",
+          "done": true
+        },
+        {
+          "id": "c2",
+          "text": "Thiết kế 3 ảnh phụ giới thiệu các Ban",
+          "done": true
+        },
+        {
+          "id": "c3",
+          "text": "Xuất file và nộp link Canva",
+          "done": true
+        }
+      ],
+      "comments": [
+        {
+          "id": "cm1",
+          "authorId": "m4",
+          "content": "Màu sắc rất đẹp và dễ nhìn, duyệt đăng Fanpage nhé!",
+          "createdAt": "14/03 10:30"
+        }
+      ]
+    },
+    {
+      "id": "t2",
+      "code": "TSK-02",
+      "eventId": "ev1",
+      "title": "Viết bài phát động Workshop TMĐT",
+      "description": "Soạn nội dung bài đăng giới thiệu diễn giả và quyền lợi cộng điểm rèn luyện cho sinh viên.",
+      "assigneeId": "m4",
+      "department": "Ban Truyền thông",
+      "priority": "Cao",
+      "deadline": "2025-03-17",
+      "status": "Review",
+      "resultLink": "https://docs.google.com/document/d/ecomit-content-workshop",
+      "resultNote": "Đã viết xong bản thảo và gắn link form đăng ký, chờ BCN duyệt.",
+      "checklist": [
+        {
+          "id": "c4",
+          "text": "Viết nội dung bài đăng chính",
+          "done": true
+        },
+        {
+          "id": "c5",
+          "text": "Tạo Google Form đăng ký tham gia",
+          "done": true
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t3",
+      "code": "TSK-03",
+      "eventId": "ev1",
+      "title": "Xin công văn mượn Hội trường A3",
+      "description": "Hoàn thiện tờ trình gửi Khoa và Phòng Hành chính Quản trị mượn hội trường cho buổi Workshop.",
+      "assigneeId": "m10",
+      "department": "Ban Chủ nhiệm",
+      "priority": "Cao",
+      "deadline": "2025-03-15",
+      "status": "InProgress",
+      "checklist": [
+        {
+          "id": "c6",
+          "text": "Soạn công văn theo mẫu của trường",
+          "done": true
+        },
+        {
+          "id": "c7",
+          "text": "Xin chữ ký xác nhận của Cố vấn CLB",
+          "done": false
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t4",
+      "code": "TSK-04",
+      "eventId": "ev4",
+      "title": "Lập bảng dự trù kinh phí Học kỳ II",
+      "description": "Tổng hợp chi phí in ấn, quà tặng minigame, nước uống cho khách mời và quỹ khen thưởng thành viên.",
+      "assigneeId": "m1",
+      "department": "Ban Chủ nhiệm",
+      "priority": "Trung bình",
+      "deadline": "2025-03-20",
+      "status": "Done",
+      "resultLink": "https://docs.google.com/spreadsheets/d/ecomit-du-tru-hk2",
+      "resultNote": "Đã cân đối ngân sách và gửi toàn Ban Chủ nhiệm.",
+      "checklist": [
+        {
+          "id": "c8",
+          "text": "Thống kê các hạng mục chi",
+          "done": true
+        },
+        {
+          "id": "c9",
+          "text": "Hoàn thiện file Google Sheets",
+          "done": true
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t5",
+      "code": "TSK-05",
+      "eventId": "ev4",
+      "title": "Bảo dưỡng máy quay, đèn, micro CLB",
+      "description": "Kiểm kê số lượng pin, dây cáp, đèn chiếu sáng và vệ sinh ống kính trước tuần sự kiện.",
+      "assigneeId": "m3",
+      "department": "Ban Kỹ thuật",
+      "priority": "Trung bình",
+      "deadline": "2025-03-15",
+      "status": "Done",
+      "resultLink": "https://drive.google.com/drive/folders/ecomit-kiem-ke-thiet-bi",
+      "resultNote": "Tất cả thiết bị hoạt động tốt, đã cập nhật sổ theo dõi.",
+      "checklist": [
+        {
+          "id": "c10",
+          "text": "Kiểm tra 2 máy ảnh và 4 micro không dây",
+          "done": true
+        },
+        {
+          "id": "c11",
+          "text": "Cập nhật danh sách thiết bị lên Drive",
+          "done": true
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t6",
+      "code": "TSK-06",
+      "eventId": "ev3",
+      "title": "Cài đặt Slide & OBS buổi sinh hoạt",
+      "description": "Chuẩn bị khung cảnh trình chiếu, video intro CLB và nhạc nền chờ.",
+      "assigneeId": "m6",
+      "department": "Ban Kỹ thuật",
+      "priority": "Cao",
+      "deadline": "2025-03-18",
+      "status": "InProgress",
+      "checklist": [
+        {
+          "id": "c12",
+          "text": "Cài đặt khung hình chuẩn Full HD",
+          "done": true
+        },
+        {
+          "id": "c13",
+          "text": "Chạy thử âm thanh và slide khách mời",
+          "done": false
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t7",
+      "code": "TSK-07",
+      "eventId": "ev3",
+      "title": "Soạn kịch bản MC & Minigame hội trường",
+      "description": "Soạn kịch bản dẫn chương trình 90 phút và 2 trò chơi teambuilding ngắn tại hội trường.",
+      "assigneeId": "m5",
+      "department": "Ban Sự kiện & Host",
+      "priority": "Cao",
+      "deadline": "2025-03-17",
+      "status": "Review",
+      "resultLink": "https://docs.google.com/document/d/ecomit-kich-ban-mc",
+      "resultNote": "Đã hoàn thành kịch bản chi tiết, nhờ Phó Chủ nhiệm xem góp ý.",
+      "checklist": [
+        {
+          "id": "c14",
+          "text": "Lên khung thời gian chương trình (Timeline)",
+          "done": true
+        },
+        {
+          "id": "c15",
+          "text": "Soạn lời dẫn MC và câu hỏi đố vui",
+          "done": true
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t8",
+      "code": "TSK-08",
+      "eventId": "ev2",
+      "title": "Dựng clip TikTok giới thiệu Gen 4",
+      "description": "Chọn lọc các khoảnh khắc họp nhóm, chuẩn bị sự kiện để dựng clip 60s đăng TikTok & Reels.",
+      "assigneeId": "m11",
+      "department": "Ban Truyền thông",
+      "priority": "Trung bình",
+      "deadline": "2025-03-19",
+      "status": "Todo",
+      "checklist": [
+        {
+          "id": "c16",
+          "text": "Tổng hợp source quay từ các thành viên",
+          "done": false
+        },
+        {
+          "id": "c17",
+          "text": "Dựng nháp trên CapCut",
+          "done": false
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t9",
+      "code": "TSK-09",
+      "eventId": "ev1",
+      "title": "Phân công trực bàn check-in QR",
+      "description": "Chia ca trực bàn check-in mã QR và hướng dẫn chỗ ngồi tại Hội trường A3.",
+      "assigneeId": "m7",
+      "department": "Ban Sự kiện & Host",
+      "priority": "Trung bình",
+      "deadline": "2025-03-18",
+      "status": "InProgress",
+      "checklist": [
+        {
+          "id": "c18",
+          "text": "Lập danh sách 6 bạn trực bàn đón tiếp",
+          "done": true
+        },
+        {
+          "id": "c19",
+          "text": "In mã QR điểm danh tại cửa hội trường",
+          "done": false
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t10",
+      "code": "TSK-10",
+      "eventId": "ev1",
+      "title": "Thiết kế mẫu E-Certificate Workshop",
+      "description": "Thiết kế mẫu E-Certificate trang trọng để gửi qua email cho sinh viên sau sự kiện.",
+      "assigneeId": "m8",
+      "department": "Ban Kỹ thuật",
+      "priority": "Thấp",
+      "deadline": "2025-03-22",
+      "status": "Todo",
+      "checklist": [
+        {
+          "id": "c20",
+          "text": "Thiết kế khung viền và logo trường / CLB",
+          "done": false
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t11",
+      "code": "TSK-11",
+      "eventId": "ev1",
+      "title": "Tổng hợp câu hỏi giao lưu Diễn giả",
+      "description": "Lọc 10 câu hỏi hay nhất từ form đăng ký để gửi trước cho khách mời chuẩn bị.",
+      "assigneeId": "m2",
+      "department": "Ban Chủ nhiệm",
+      "priority": "Cao",
+      "deadline": "2025-03-17",
+      "status": "Done",
+      "resultLink": "https://docs.google.com/spreadsheets/d/ecomit-cau-hoi-dien-gia",
+      "resultNote": "Đã chọn lọc 12 câu hỏi chất lượng nhất.",
+      "checklist": [
+        {
+          "id": "c21",
+          "text": "Xuất dữ liệu từ Google Form",
+          "done": true
+        },
+        {
+          "id": "c22",
+          "text": "Biên tập và gửi cho Ban Sự kiện",
+          "done": true
+        }
+      ],
+      "comments": []
+    },
+    {
+      "id": "t12",
+      "code": "TSK-12",
+      "eventId": "ev3",
+      "title": "Chuẩn bị quà khách mời & Minigame",
+      "description": "Đóng gói 3 phần quà cảm ơn diễn giả và 15 phần quà cho sinh viên trả lời đúng câu hỏi.",
+      "assigneeId": "m12",
+      "department": "Ban Sự kiện & Host",
+      "priority": "Trung bình",
+      "deadline": "2025-03-18",
+      "status": "Todo",
+      "checklist": [
+        {
+          "id": "c23",
+          "text": "Mua túi giấy và ruy băng trang trí",
+          "done": false
+        },
+        {
+          "id": "c24",
+          "text": "Kiểm đếm đủ 15 phần quà minigame",
+          "done": false
+        }
+      ],
+      "comments": []
+    }
+  ],
+  "events": [
+    {
+      "id": "ev1",
+      "code": "EV-01",
+      "title": "Workshop Thương mại Điện tử & AI 2025",
+      "category": "Sự kiện lớn",
+      "startDate": "2025-03-10",
+      "endDate": "2025-03-22",
+      "leadId": "m1",
+      "color": "indigo"
+    },
+    {
+      "id": "ev2",
+      "code": "EV-02",
+      "title": "Chiến dịch Tuyển Thành viên Gen 4",
+      "category": "Tuyển quân & Nội bộ",
+      "startDate": "2025-03-05",
+      "endDate": "2025-03-20",
+      "leadId": "m4",
+      "color": "blue"
+    },
+    {
+      "id": "ev3",
+      "code": "EV-03",
+      "title": "Sinh hoạt Chuyên đề & Teambuilding Tháng 3",
+      "category": "Chuyên môn",
+      "startDate": "2025-03-12",
+      "endDate": "2025-03-19",
+      "leadId": "m5",
+      "color": "amber"
+    },
+    {
+      "id": "ev4",
+      "code": "EV-04",
+      "title": "Vận hành Thiết bị & Ngân sách Học kỳ II",
+      "category": "Chuyên môn",
+      "startDate": "2025-03-01",
+      "endDate": "2025-03-25",
+      "leadId": "m3",
+      "color": "emerald"
+    }
+  ],
+  "updatedAt": "2026-10-22T14:02:37.520Z"
+}
