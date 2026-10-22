@@ -2,13 +2,13 @@
   "members": [
     {
       "id": "m1",
-      "fullName": "Nguyễn Minh Triết",
+      "fullName": "Nguyễn Thu Trang",
       "studentId": "21110023",
       "classCode": "21TM111",
       "email": "triet.nm@lhu.edu.vn",
       "phone": "0908 234 561",
-      "department": "Ban Chủ nhiệm",
       "role": "Chủ nhiệm CLB",
+      "department": "Ban Chủ nhiệm",
       "status": "Đang hoạt động",
       "joinDate": "2022-09",
       "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=200&auto=format&fit=crop&q=80",
@@ -532,5 +532,5 @@
       "color": "emerald"
     }
   ],
-  "updatedAt": "2026-10-22T14:04:19.732Z"
+  "updatedAt": "2026-10-22T14:04:27.229Z"
 }
