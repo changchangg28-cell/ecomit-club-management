@@ -2,16 +2,16 @@
   "members": [
     {
       "id": "m1",
-      "fullName": "Nguyễn Thu Trang",
+      "fullName": "Nguyễn Minh Triết",
       "studentId": "21110023",
       "classCode": "21TM111",
       "email": "triet.nm@lhu.edu.vn",
       "phone": "0908 234 561",
-      "role": "Chủ nhiệm CLB",
       "department": "Ban Chủ nhiệm",
+      "role": "Chủ nhiệm CLB",
       "status": "Đang hoạt động",
       "joinDate": "2022-09",
-      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=200&auto=format&fit=crop&q=80",
+      "avatar": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=200&auto=format&fit=crop&q=80",
       "bonusPoints": 120
     },
     {
@@ -219,7 +219,7 @@
       "department": "Ban Truyền thông",
       "priority": "Cao",
       "deadline": "2025-03-17",
-      "status": "Done",
+      "status": "Review",
       "resultLink": "https://docs.google.com/document/d/ecomit-content-workshop",
       "resultNote": "Đã viết xong bản thảo và gắn link form đăng ký, chờ BCN duyệt.",
       "checklist": [
@@ -246,7 +246,7 @@
       "department": "Ban Chủ nhiệm",
       "priority": "Cao",
       "deadline": "2025-03-15",
-      "status": "Done",
+      "status": "InProgress",
       "checklist": [
         {
           "id": "c6",
@@ -259,9 +259,7 @@
           "done": false
         }
       ],
-      "comments": [],
-      "resultLink": "",
-      "resultNote": ""
+      "comments": []
     },
     {
       "id": "t4",
@@ -534,5 +532,5 @@
       "color": "emerald"
     }
   ],
-  "updatedAt": "2026-10-22T16:16:20.719Z"
+  "updatedAt": "2026-10-22T16:16:22.805Z"
 }
