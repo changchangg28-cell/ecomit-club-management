@@ -87,7 +87,9 @@ export const Topbar: React.FC = () => {
             {cloudConfig.mode === 'local' ? 'database' : 'cloud_done'}
           </span>
           <span className="hidden sm:inline">
-            {cloudConfig.mode === 'local'
+            {cloudConfig.mode === 'github'
+              ? 'GitHub DB'
+              : cloudConfig.mode === 'local'
               ? 'Local DB'
               : cloudConfig.mode === 'firebase'
               ? 'Firebase'

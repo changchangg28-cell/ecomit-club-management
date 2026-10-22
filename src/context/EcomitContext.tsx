@@ -77,6 +77,8 @@ interface EcomitContextType {
   defaultEventId: string | undefined;
 
   resetAllData: () => void;
+  exportBackupJson: () => void;
+  importBackupJson: (rawJson: string) => boolean;
   toast: string | null;
   showToast: (msg: string) => void;
 }
@@ -574,6 +576,46 @@ export const EcomitProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     showToast('Đã khôi phục dữ liệu mẫu ban đầu');
   };
 
+  const exportBackupJson = () => {
+    const payload = {
+      version: 'ecomit-v6',
+      exportedAt: new Date().toISOString(),
+      events,
+      members,
+      tasks,
+    };
+    const blob = new Blob([JSON.stringify(payload, null, 2)], {
+      type: 'application/json;charset=utf-8;',
+    });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `Du_Lieu_CLB_ECOMIT_${new Date().toISOString().split('T')[0]}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+    showToast('Đã tải file lưu trữ dữ liệu CLB (.json)!');
+  };
+
+  const importBackupJson = (rawJson: string): boolean => {
+    try {
+      const parsed = JSON.parse(rawJson);
+      if (Array.isArray(parsed.members) && Array.isArray(parsed.tasks)) {
+        setMembers(parsed.members);
+        setTasks(parsed.tasks);
+        if (Array.isArray(parsed.events) && parsed.events.length > 0) {
+          setEvents(parsed.events);
+        }
+        showToast('Đã nạp dữ liệu CLB thành công!');
+        return true;
+      }
+      showToast('File dữ liệu không đúng định dạng CLB ECOMIT');
+      return false;
+    } catch {
+      showToast('Không thể đọc file dữ liệu JSON');
+      return false;
+    }
+  };
+
   return (
     <EcomitContext.Provider
       value={{
@@ -611,6 +653,8 @@ export const EcomitProvider: React.FC<{ children: React.ReactNode }> = ({ childr
         defaultAssigneeId,
         defaultEventId,
         resetAllData,
+        exportBackupJson,
+        importBackupJson,
         toast,
         showToast,
       }}

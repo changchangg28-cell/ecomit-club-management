@@ -210,7 +210,9 @@ export const Sidebar: React.FC = () => {
             />
             <div className="min-w-0">
               <div className="text-xs font-bold text-slate-100 truncate">
-                {cloudConfig.mode === 'local'
+                {cloudConfig.mode === 'github'
+                  ? 'GitHub Cloud DB (Online)'
+                  : cloudConfig.mode === 'local'
                   ? 'Database: Local AutoSave'
                   : cloudConfig.mode === 'firebase'
                   ? 'Cloud: Firebase RTDB'
