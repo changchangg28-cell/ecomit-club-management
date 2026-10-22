@@ -219,7 +219,7 @@
       "department": "Ban Truyền thông",
       "priority": "Cao",
       "deadline": "2025-03-17",
-      "status": "Review",
+      "status": "Done",
       "resultLink": "https://docs.google.com/document/d/ecomit-content-workshop",
       "resultNote": "Đã viết xong bản thảo và gắn link form đăng ký, chờ BCN duyệt.",
       "checklist": [
@@ -534,5 +534,5 @@
       "color": "emerald"
     }
   ],
-  "updatedAt": "2026-10-22T16:15:58.228Z"
+  "updatedAt": "2026-10-22T16:16:05.530Z"
 }
