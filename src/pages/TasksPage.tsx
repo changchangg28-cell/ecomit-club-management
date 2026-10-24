@@ -134,7 +134,7 @@ export const TasksPage: React.FC = () => {
     getEventById,
   } = useEcomit();
 
-  const [viewMode, setViewMode] = useState<'events' | 'board' | 'table'>('events');
+  const [viewMode, setViewMode] = useState<'events' | 'board' | 'table'>('board');
   const [selectedEventId, setSelectedEventId] = useState<string>('ALL');
   const [selectedDept, setSelectedDept] = useState<string>('ALL');
   const [selectedAssignee, setSelectedAssignee] = useState<string>('ALL');
